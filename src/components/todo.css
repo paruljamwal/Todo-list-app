@@ -1,0 +1,57 @@
+.box{
+    border: 5px solid goldenrod;
+    width:  50%;
+    /* height: 400px; */
+    margin: auto;
+
+}
+
+#image{
+    height: 150px;
+    
+}
+
+#add{
+    cursor: pointer;
+    color: green;
+}
+
+#input{
+    width: 250px;
+    height: 30px;
+    font-size: larger;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid goldenrod;
+}
+
+#delete:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 18%;
+    padding-right: 4%;
+    color: rgb(15, 175, 238);
+}
+
+.databox{
+    display: flex;
+}
+#remove{
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color:goldenrod ;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+#remove:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.616);
+}
